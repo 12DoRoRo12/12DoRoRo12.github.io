@@ -26,7 +26,7 @@
 
 .register{
     text-align: center;
-    margin: 4% 0% 10% 50%;
+    margin: 3% 0% 10% 50%;
     color: black;
 }
 .chatbot{
@@ -70,6 +70,10 @@
     margin: 5% 30% 10% 25%;
 }
 
+.profile img{
+    height: 100%;
+    width: 100%
 
+}
 
 
