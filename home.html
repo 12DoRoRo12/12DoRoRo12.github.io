@@ -1,196 +1,243 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyWorld Georgia</title>
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" media="screen and (max-width: 450px)" href="mobile_screen.css">
-    <link rel="stylesheet" media="screen and (max-width: 849px)" href="tablet_screen.css">
-    <link rel="stylesheet" media="screen and (min-width: 850px)" href="wide_screen.css">
-<!--    <link rel="stylesheet" type="text/css" href="../static/style.css">-->
+    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   </head>
   <body style="background-color: #e3f2fd; min-height: 100vh; display: flex; flex-direction: column;">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-
     <script id="replace_with_navbar" src="nav.js"></script>
 
-<div class="mobile-greeting card mb-3">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDtb8XmZc9Ikran4RZY29vzqxssHrU9E9dPpWpfk_bkC-YXNcJdx6L0CWl9K08k2HqJly3yxb8TsFMWoH-slE1JaYAHDwtk2r7ocMihNCcqj68glPg80olFl4GyFB4OuW-jf4-ZfXXDEkKxDMSwZmBmbinZTBq4KEgMSAUNaFKW1xoLcE0raBr0UW0PQ/w602-h471/Background.jpg" class="card-img-top" alt="poster">
-  <div class="card-body">
-    <h5 class="card-title">დარეგისტრირდი უფასო მასტერკლასზე! <br>დარეკეთ ნომერზე: <br>593 93 80 32</h5>
-  </div>
-</div>
-
-
-
-  <div class="greeting card text-white">
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDtb8XmZc9Ikran4RZY29vzqxssHrU9E9dPpWpfk_bkC-YXNcJdx6L0CWl9K08k2HqJly3yxb8TsFMWoH-slE1JaYAHDwtk2r7ocMihNCcqj68glPg80olFl4GyFB4OuW-jf4-ZfXXDEkKxDMSwZmBmbinZTBq4KEgMSAUNaFKW1xoLcE0raBr0UW0PQ/w602-h471/Background.jpg" class="card-img" alt="background image" style="max-width: 50%; ">
-      <div class="register card-img-overlay">
-        <div style="margin: -10% 0% 0% 0%">
-        <h2 class="card-title" style="margin: 10%">დარეგისტრირდი <br>უფასო მასტერკლასზე!</h2>
-        <h3>დარეკე ნომერზე:</h3>
-        <h1>593 93 80 32</h1>
-      </div>
-    <br/>
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpOR2sowRl1nouzfylRLaqpGUPJKRGMgZ7qg-3UWANYj4lZDP_xDxXmIZeXCQMMjEejgj7__MYGwGfNftqQqT6rGRm3d6WlNyDtalRdFK-i2wrgLmm_wl9vlXVm4Rvj9jTUI1fxAQKQdOBkvbKouHpde1SEQvTH2zHOPpLwUIrlM-UQ-hObxTSfvV9tw/s320/newlogo.png" class="logo card-img" alt="background image">
-            <!--    <p>{{ question }}</p>#წარმატებული ან წარუმარებელი რეგისტრაცია ფაფაფ-->
-<!--    <p>{{ answer }}</p>-->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 pb-lg-5 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1>გახდი <span class="text-warning">პროგრამისტი</span></h1>
+              <p class="lead my-4">გაიარე პროგრამირების კურსები PyWorld_თან ერთად! <br>ჩვენ დაგეხმარებით მიაღწიოთ სასურველ შედეგს!</p>
+              <a href="#courses" class="btn btn-warning btn-lg mb-3">მიმდინარე კურსები</a>
+            </div>
+            <img class="image-fluid w-30" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpOR2sowRl1nouzfylRLaqpGUPJKRGMgZ7qg-3UWANYj4lZDP_xDxXmIZeXCQMMjEejgj7__MYGwGfNftqQqT6rGRm3d6WlNyDtalRdFK-i2wrgLmm_wl9vlXVm4Rvj9jTUI1fxAQKQdOBkvbKouHpde1SEQvTH2zHOPpLwUIrlM-UQ-hObxTSfvV9tw/s320/newlogo.png" alt="Image">
+          </div>
         </div>
-  </div>
+
+    </section>
+
+    <section class="p-5" style="text-align: center;">
+        <div class="container">
+          <div>
+            <h1 class="mb-3 mt-5 mb-md-0" style="font-size: 40px; color: black;" href="#"><b>გვიპოვე სოციალურ სივრცეში:</b> </h1>
+          </div>
+
+        </div>
+    </section>
 
 
-<div class="boto wrapper">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQtWrG1qv-LJ_jKtyKZ14jZGUYu7l3dQkfSzsdKELMWMdfcxQZ5sHw-f_pLXl60ZIhpYBRtTLNxrIEEkO8rvS0P8gWPbGOproSSY7nOX12UFZOa8h26dIpSzEMfdt9iB8Ri4F0i3p02Iq0qXVb6XegDJMfueO0q1mXg8hChP9XfJKI500-LSzLDbfdTw/s320/boto.webp" alt="ბოტო" style="max-width: 20%; margin: 0px 15px 0px 10%; padding: 0; box-sizing: border-box; float: left;">
-    <div class="chatbot text-box">
-        <h5 >ჩათბოტი _ ბოტო</h5>
-        <p>უახლოეს მომავალში ვებსაიტს დაემატება ჩათბოტი _ ბოტო! ის მოგაწოდებთ ყველანაირ საჭირო ინფორმაციას მიმდინარე კურსებთან დაკავშირებით!</p>
-<!--        <p><small class="text-muted">ბოტოსთან სასაუბროდ დააკლიკეთ ღილაკს</small></p>-->
-    </div>
-</div>
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="body text-center">
+              <div class="h1 mb-3"><i class="bi bi-facebook"></i></div>
+              <h3 class="card-title mb-3">Facebook</h3>
 
+              <a href="https://www.facebook.com/pyworldgeorgia/" class="btn btn-primary w-50 mb-2">გადადი</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="body text-center">
+              <div class="h1 mb-3"><i class="bi bi-instagram"></i></div>
+              <h3 class="card-title mb-3">Instagram</h3>
 
+              <a href="https://www.instagram.com/pyworldgeorgia/" class="btn btn-primary w-50 mb-2">გადადი</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="body text-center">
+              <div class="h1 mb-3"><i class="bi bi-youtube"></i></div>
+              <h3 class="card-title mb-3">Youtube</h3>
 
-
-
-
-
-
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        რას გთავაზობთ PyWorld_ი!
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>1.	<b>დრო და თანხა</b><br>
-თქვენ გთავაზობენ ცხრა თვიან და წელიწადნახევრიან კურსებს დაბალი სწავლის ინტენსივობით. კომპანიებს სურთ მიიღონ მაქსიმალური მოგება ხანგრძლივი დროის მანძილზე და გარწმუნებენ რომ მასალის ათვისება უფრო მცირე დროში შეუძლებელია.
-ჩვენ გთავაზობთ სწრაფ და ინტენსიურ კურსებს, რომლის გავლის შემთვევაში გააკეთებთ დროისა და თანხის ეკონომიას.
-ვინაიდან კურსი ტარდება ონლაინ, არ არსებობს ტრანსპორტირების დანახარჯები. თქვენ შეგიძ₾იათ დაესწროთ ლექციებს საქართველოს ნებისმიერი წერტილიდან, თუკი გაქვთ კომპიუტერი და წვდომა ინტერნეტსა და ელექტროენერგიაზე.
-
-<br>2.	<b>არჩევანი</b><br>
-სასურველი კურსის გავლის შემდეგ შეგიძლიათ თავად აირჩიოთ შემდეგი საფეხური თქვენი ინტერესებიდან გამომდინარე. PyWorld გაძლევთ საშუალებას თავად განსაზღვროთ რომელი მიმართულების შესწავლა გსურთ.
-
-<br>3.	<b>ხარისხი</b><br>
-სწავლის მაღალი ხარისხი პედაგოგის კომპეტენციისა და როგორც თეორიული მასალის შესწავლით, ასევე პრაქტიკული სამუშაოების შესრულებით მიიღწევა. კურსის მანძილზე შესაძლებლობა გეძლევათ განმეორებით მოუსმინოთ ნებისმიერი ჩატარებული ლექციის ჩანაწერს და გაიმყართ თქვენი ცოდნა.
-საბოლოო ინდივიდუალურ პროექტზე მუშაობა კი საჭიროებს კურსის მანძილზე შეძენილი ცოდნისა და უნარების კონსოლიდაციას. პროექტის წარმატებით ჩაბარების შემთხვევაში თქვენი კომპეტენციის დონე აიწევს და მიიღებთ PyWorld_ის სერთიფიკატს!</p>
+              <a href="https://www.youtube.com/@pyworld6481/" class="btn btn-primary w-50 mb-2">გადადი</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
-    </div>
-  </div>
+
+    </section>
+
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md" style="text-align: center;">
+            <img width=80% class="image-fluid rounded-circle" style="border: 5px solid black;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6mNMuU8ORWotQ6BsJSWs2wPx6HTzqXCiEIKXVOuw1knqv5gQyneYpqLodJlUnRYUdpYPo-sDRdb-EA_Ut9Le907X4P_j-LlbgK0opqD2jyyJSK-pf6rzzNEfaIz5_dmR0HveLMn8UTeKMd8mB9NMALlBPiqqxK5AnVw_TiTfx0kehWX1rqlP4vWFNAw/w640-h426/why_programming.webp" alt="image">
+          </div>
+          <div class="col-md p-5">
+            <h2>რატომ პროგრამირება?</h2>
+            <p class="lead">წაიკითხეთ სტატია _ <b>"9 მიზეზი რატომ უნდა შევისწავლოთ პროგრამირება"</b> ჩვენს ბლოგზე.</p>
+
+            <a href="https://pyworldgeo.blogspot.com/2023/02/9.html" class="btn btn-warning mt-3"> <i class="bi bi-chevron-right"></i>სრულად</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+
+          <div class="col-md p-5">
+            <h2>რა არის პითონი?</h2>
+            <p class="lead">გაეცანით სტატიას ჩვენს ბლოგზე და გაიგეთ რას წარმოადგენს პითონის პროგრამირების ენა...</p>
+            <a href="https://pyworldgeo.blogspot.com/2023/02/blog-post.html" class="btn btn-warning mt-3"> <i class="bi bi-chevron-right"></i>სრულად</a>
+
+          </div>
+          <div class="col-md" style="text-align: center;">
+            <img width=50% class="image-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBRd-KonGuPZ3v5c2rrOKSoKmKdu_8566YWxw6DTkvk0jxJcexgFDSaqN4FlejsGrv3FAlmwoxlIwBA7Ih_P3acBzdABhWZUovrv3PEIh7IqhP3s93UjNAgU0CRYO3ZV6RnRaBrCisv5OgZmbULgONaln27kb0yzm3ya32cXVFhR9_ldwi_L9cAtfnEQ/s320/9591ed82caa8d20c30db96cb7298d3a9.png" alt="image">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="questions" class="p-5">
+      <div class="container mb-5">
+        <h2 class="text-center mb-4">ხშირად დასმული შეკითხვები:</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        9 მიზეზი რატომ უნდა დაიწყო პროგრამირების შესწავლა!
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed lead" style="font-size: 30px;"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+        <b>სად ტარდება კურსი?</b>
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-          <p><br>1.	მაღალი ანაზღაურება
-<br>Python_ის დეველოპერების საშულო ხელფასი ამერიკის შეერთებულ შტატებში წარმოადგენს 96 000 დოლარს წელიწადში, ანუ თვეში საშუალოდ 8000 დოლარს!
-<br>
-<br>2.	გეოგრაფიული შეზღუდვების არარსებობა
-<br>ვინაიდან პროგრამისტები ძირითადად მუშაობენ ონლაინ, ნებისმიერი ადგილიდან არის შესაძლებელი ნებისმიერ კომპანიასთან თანამშრომლობა. თბილისიდან იმუშავებ თუ რაიონიდან, ქართულ კომპანიაზე თუ ამერიკულზე _ შენი გადასაწყვეტია!
-<br>
-<br>3.	საჭირო აღჭურვილობის სიმცირე
-<br>სამუშაოს შესასრულებლად საჭიროა მხოლოდ სამი რამ: ელექტროენერგიაზე და ინტერნეტზე წვდომა, კომპიუტერის ფლობა.
-<br>
-<br>4.	მოხერხებული გრაფიკი
-სამუშაოს შესრულებისთვის აუცილებელია ჩაეტიო დამსაქმებელი კომპანიის მიერ დაწესებულ ვადებში, თუმცა დღის რომელ ნაწილში იმუშავებ და რომელში დაისვენებ შენი გადასაწყვეტია.
-<br>
-<br>5.	სტაბილურობა
-<br>პროგრამისტებს ვერ ჩაანაცვლებს ხელოვნური ინტელექტი, რადგან პროგრამისტები თავად ქმნიან ხელოვნურ ინტელექტს.
-დღეს მსოფლიოში დეველოპერების დეფიციტია და 2030 წლისთვის ელიან, რომ დეფიციტი 85.2 მილიონამდე გაიზრდება.
-<br>
-<br>6.	ჯანმრთელობა
-<br>პროგრამისტობა არ საჭიროებს ფიზიკურ შრომას. თვალის დამცავი სათვალე და „ხელოვნური ცრემლების“ ფლაკონი საკმარისია რომ კომპიუტერმა მხედველობა არ დააზიანოს.
-გრაფიკის მოხერხებულობიდან გამომდინარე ფიზიკური ვარჯიშისთვის საკმარისი დრო დაგრჩებათ.
-<br>
-<br>7.	სიმარტივე
-პროგრამირების შესწავლა დღეს უმარტივესია. პროგრამირების ენები სულ უფრო და უფრო იხვეწება და მარტივად შესასწავლი ხდება. მათ შორისაა Python_იც.
-<br>
-<br>8.	განვითარების შესაძლებლობა
-<br>როდესაც საბაზისო ცოდნას დააგროვებ, შეგეძლება აირჩიო სასურველი უამრავი საინტერესო მიმართულებიდან, როგორიცაა:
-o	ვებსაიტებისა და აპლიკაციების აწყობა
-o	თამაშების აწყობა
-o	ხელოვნურ ინტელექტზე მუშაობა
-o	მონაცემთა დამუშავება
-o	ჰაკინგი (თეთრი)
-o	რობოტიკა
-და სხვა.
-<br>
-<br>9.	უსაფრთხოება
-<br>ზემოთ ჩამოთვლილი რვა მიზეზი ადასტურებს რომ პროგრამისტობა ერთ-ერთი ყველაზე უსაფრთხო პროფესიაა.
-</p>
-      </div>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="font-size: 20px;">კურსი ტარდება ონლაინ. საკმარისია კომპიუტერის არსებობა და ინტერნეტსა და ელექტრო ენერგიაზე წვდომა რათა შეძლოთ კურსის გავლა.</div>
     </div>
+
+
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        რა გავლენას ახდენს პროგრამირების შესწავლა თქვენს გონებაზე?
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed lead" style="font-size: 30px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+        <b>რამდენ ხანში შევძლებ პროგრამირების განხრით მუშაობის დაწყებას?</b>
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <p>
-1991_წლიდან 2017 წლამდე ერთმანეთისგან დამოუკიდებლად ჩატარებულმა შვიდმა მეცნიერულმა კვლევამ დაადგინა, რომ ტვინის მასტიმულირებელ აქტივობებში ჩართული ადამიანები, ამცირებენ კოგნიტური დაქვეითებისა და ალცჰეიმერის მსგავსი დაავადებების რისკს.
-<br><br>ასეთ აქტივობებს განეკუთვნება მაღალ-მოთხოვნადი კოგნიტური აქტივობები, რომლებიც მოიცავენ სწავლასა და ინტელექტუალურ სირთულეების არსებობას.
-<br><br>კვლევებმა აჩვენებს, რომ კოგნიტური აქტივობები უნარჩუნებს ადამიანის ტვინს ჯანმრთელობას და ხელს უშლის ნერვულ დაქვეითებას.
-<br><br>1991 წელს ჩატარებულმა კვლევამ დაადგინა, რომ კომპიუტერის პროგრამირების გამოცდილების მქონე სტუდენტებმა კოგნიტური უნარების ტესტებზე უფრო მაღალი ქულები მიიღეს, ვიდრე დანარჩენმა სტუდენტებმა.
-<br><br>2013 წელს ჩატარებულმა კვლევამ კიდევ ერთხელ დაადასტურა ზემოხსენებული.
-<br><br>2014 წელს ჩატარებულმა კვლევამ, რომლის მანძილზეც აკვირდებოდნენ პროგრამისტების ტვინის აქტივობას, აჩვენა, რომ კოდის წერისას ძირითადად აქტიურდება ტვინის ის ნაწილები, რომლებიც პასუხისმგებელნი არიან საუბარზე, მეხსიერებაზე და ყურადღებაზე.
-<br><br>კვლევებმა დაადასტურა რომ პროგრამისტებს სხვებზე მეტად უნვითარდებათ კოგნიტური უნარები და ნაკლებად არიან ალცჰეიმერის მსგავსი დაავადებების მსხვერპლი. პროგრამირება არ ცვლის ტვინს, თუმცა ხვეწს ანალიტიკურ და ლოგიკურ უნარებს, ანვითარებს კრეატიულობას.
-        </p>
-      </div>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="font-size: 20px;">ასეთ კითხვაზე პასუხის გაცემა რთულია, თუმცა არის შემთხვევები, როდესაც აქტიურად მუშაობის შემთხვევაში 6-9 თვე საკმარისია პროგრამირების განხრით პირველი სამსახურის დასაწყებად.</div>
     </div>
   </div>
-</div>
 
 
-
-
-
-
-
-
-<div class="card-group">
-  <div class="home card">
-    <img width="400" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3Z-A56dizRMPLoaHm6QRmI1wzLkm43DUwebvjh-B8iiN8reltHmcSUsQIhfTogsnxf_87Ow52FMvzg9sYiRLg5o1LVk1HA7IfrD9yMZhlz0-3az-JGO6s3O_nrZlAMDH3zewS_1E4DVXf-s-f1gAI6IoZjuIwNJW-ZXONZdQwTT74Hlj22sArSvNJ5w/w541-h390/turtle1.jpg" class="card-img-top" alt="პოსტერი">
-    <div class="card-body">
-      <h5 class="card-title">ვიზუალური პროგრამირების კურსი</h5>
-      <p class="card-text">დაიწყეთ პითონის პროგრამირების ენის შესწავლა ვიზუალური გამოსახულებების შექმნით...</p>
-      <p class="card-text"><small class="text-muted">12 საათი სალექციო დრო</small></p>
-    </div>
-  </div>
-  <div class="home card">
-    <img width="400" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpLK-AoiDLmiw_KjYgd9MFi08P6Y2f8Xq3z126cbkmtwkeOtTfVqTtJQYPYMpxUlNbf9GZ3IfW7SrlKpY0c5dfupYirz9Q6AT9-3PiiwR1SZbNXSCJVvcQmUpqPuf97HvTuxGcIvwat_2wc9RmGPf5vosaY5pbWHz1bOY1FqvCpAghrmvNW_BJRe3zdQ/w540-h383/basiccourse1.jpg" class="card-img-top" alt="პოსტერი">
-    <div class="card-body">
-      <h5 class="card-title">პითონის სწრაფი კურსი</h5>
-      <p class="card-text">პითონის ინტენსიური კურსი მოგცემთ საშუალებას ორ თვეში მიიღოთ პროგრამირების ენის საბაზისო ცოდნა...</p>
-      <p class="card-text"><small class="text-muted">24 საათი სალექციო დრო</small></p>
-    </div>
-  </div>
-  <div class="home card">
-    <img width="400" height="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlLe0V3flu_pmL8VuRJ__33g2YnjWnlizk68Agm5gXUyJJT_cOtyYzbIJ3tF8QQaQZLYNBIIGnY0GZozG_ZRb96dlW31-crqRP-g79SnyGn57iSpriFzTSK6r9Vdwy6GQVpoJA1zuL34PBbES3L_y3itnAFp6ZWwvpdHVeUsiaTvVFzeha3xGkyDBj2g/w544-h389/hunter1.jpg" class="card-img-top" alt="პოსტერი">
-    <div class="card-body">
-      <h5 class="card-title">Gaming_ის კურსი</h5>
-      <p class="card-text">თუ გაქვს პითონის საბაზისო ცოდნა შეგიძლია განავითარო პროგრამირების უნარები 2D თამაშების შექმნით...</p>
-      <p class="card-text"><small class="text-muted">24 საათი სალექციო დრო</small></p>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed lead" style="font-size: 30px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+        <b>რომელი კურსით სჯობს რომ დავიწყო?</b>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="font-size: 20px;">თუკი თქვენ ხართ 10-15 წლის ასაკის და აქამდე შეხება არ გქონიათ პროგრამირებასთან, სასურველია დაიწყოთ ვიზუალური პროგრამირების კურსით. <br><br>თუკი თქვენ ხართ ნებისმიერი ასაკის, 15 წელზე ზემოთ, და არ გქონიათ პროგრამირებასთან შეხება, სასურველია დაიწყოთ პითონის სწრაფი კურსით. <br><br>თუკი ხართ ნებისმიერი ასაკის და გსურსთ შეისწავლოთ ვებსაიტის დიზაინის შექმნა, გირჩევთ აირჩიოთ HTML_ისა და CSS_ის
+შემსწავლელი კურსი. <br><br>თუ თქვენ გქონიათ შეხება პითონთან და გაქვთ საბაზისო ცოდნა, გირჩევთ აირჩიოთ Gaming_ის
+ან Web-Developement_ის
+კურსი.  </div>
     </div>
   </div>
 </div>
+      </div>
+    </section>
+
+      <section title="courses" id="courses" class="bg-dark pt-5 pb-5">
+        <div class="container">
+          <h1 class="text-center text-white mb-5">მიმდინარე კურსები:</h1>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3Z-A56dizRMPLoaHm6QRmI1wzLkm43DUwebvjh-B8iiN8reltHmcSUsQIhfTogsnxf_87Ow52FMvzg9sYiRLg5o1LVk1HA7IfrD9yMZhlz0-3az-JGO6s3O_nrZlAMDH3zewS_1E4DVXf-s-f1gAI6IoZjuIwNJW-ZXONZdQwTT74Hlj22sArSvNJ5w/w541-h390/turtle1.jpg" alt="" class="mb-3 w-100">
+                  <h3 class="card-title">ვიზუალური პროგრამირების კურსი</h3>
+                  <p class="card-text">კურსის ხანგრძლივობა 2 თვე (12 საათი)</p>
+                  <a class="btn btn-warning text-dark mx-1" >თვეში 150 ლარი</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpLK-AoiDLmiw_KjYgd9MFi08P6Y2f8Xq3z126cbkmtwkeOtTfVqTtJQYPYMpxUlNbf9GZ3IfW7SrlKpY0c5dfupYirz9Q6AT9-3PiiwR1SZbNXSCJVvcQmUpqPuf97HvTuxGcIvwat_2wc9RmGPf5vosaY5pbWHz1bOY1FqvCpAghrmvNW_BJRe3zdQ/w540-h383/basiccourse1.jpg" alt="" class="mb-3 w-100">
+                  <h3 class="card-title">პითონის <br>საბაზისო კურსი</h3>
+                  <p class="card-text">კურსის ხანგრძლივობა 4 თვე (24 საათი)</p>
+                  <a class="btn btn-warning text-dark mx-1" >თვეში 150 ლარი</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlLe0V3flu_pmL8VuRJ__33g2YnjWnlizk68Agm5gXUyJJT_cOtyYzbIJ3tF8QQaQZLYNBIIGnY0GZozG_ZRb96dlW31-crqRP-g79SnyGn57iSpriFzTSK6r9Vdwy6GQVpoJA1zuL34PBbES3L_y3itnAFp6ZWwvpdHVeUsiaTvVFzeha3xGkyDBj2g/w544-h389/hunter1.jpg" alt="" class="mb-3 w-100">
+                  <h3 class="card-title">Gaming_ის <br>კურსი (PyGame)</h3>
+                  <p class="card-text">კურსის ხანგრძლივობა 4 თვე (24 საათი)</p>
+                  <a class="btn btn-warning text-dark mx-1" >თვეში 150 ლარი</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj85WKFcFO-7ZjYdGHmavKcNhE3EuV16rfR6pP1XFigBPICEOutnsFZw8I2YRcNtDzlxi0p5M8utDgDdVFTdTz8cxFtwCevGXhNCy-92DSmnsCSA_KS0fvsdEVBT6Vu1a2eAOsVW1NYhsYEmrmacy5Sb3XOUS_n-fqIOpjTelApOt7ksr9oVZxjn6XhQA/w544-h391/html_course_web.jpg" alt="" class="mb-3 w-100">
+                  <h3 class="card-title">HTML_ისა და CSS_ის <br>შემსწავლელი კურსი</h3>
+                  <p class="card-text">კურსის ხანგრძლივობა 2 თვე (12 საათი)</p>
+                  <a class="btn btn-warning text-dark mx-1" >თვეში 250 ლარი</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMhBm-HD9oMUhFX2-UjUz1FPB6Lm9wrGKnGm-n-TaFNN1ai9sxJuXShIvubKCf8v5DIMRDn0p_da1aGZuuyUzjHyJyVEeRVnhlvxWxrbt1xheWzqn0MK_a5uSOzO5SAGUIhmlI0DyhHY8pduQ_2f2UzXLXcapFX5ijjuNPUJ5vVrz-ARwj1igxhk7rsQ/w544-h389/web_developement.jpg" alt="" class="mb-3 w-100">
+                  <h3 class="card-title">Web-Developement_ის <br>კურსი (Flask Framework)</h3>
+                  <p class="card-text">კურსის ხანგრძლივობა 2 თვე (24 საათი)</p>
+                  <a class="btn btn-warning text-dark mx-1" >თვეში 180 ლარი</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
 
+      <section class="p-5 d-none d-sm-block">
+        <div class="container items-align-center" style="width: 80%;">
+              <h2 class="text-center mb-4">საკონტაქტო ინფორმაცია:</h2>
+              <ul class="list-group list-group-flash lead">
+                <li class="list-group-item">
+                  <span class="fw-bold">ელ. ფოსტა:</span> pyworld.official@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">ტელეფონი:</span> 593-93-80-32
+                </li>
+              </ul>
+            </div>
+      </section>
 
+<!--      <script id="replace_with_footer" src="footer.js"></script>-->
 
-    <script id="replace_with_footer" src="footer.js"></script>
 
   </body>
 </html>
