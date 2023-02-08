@@ -1,8 +1,4 @@
-body::before{
-    display: block;
-    content: "";
-    height: 60px;
-}
+
 .navbar-toggler {
   color: $navbar-light-color;
   border-color: $navbar-light-toggler-border-color;
