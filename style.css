@@ -30,3 +30,9 @@
     width: 300px;
 
 }
+
+
+.navbar .navbar-toggler{
+  border-color: white;
+}
+
