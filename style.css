@@ -9,3 +9,24 @@
     width: 100%;
     padding: 10%;
 }
+
+.social-youtube{
+    background: #FF0000;
+    padding-bottom: 3%;
+}
+
+.social-insta{
+    background: #833AB4;
+    padding-bottom: 3%;
+
+}
+.social-face{
+    background: #4267B2;
+    padding-bottom: 3%;
+
+}
+
+.b{
+    width: 300px;
+
+}
