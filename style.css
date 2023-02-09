@@ -4,22 +4,8 @@
   border-color: $navbar-light-toggler-border-color;
 }
 
-
-@media (min-width: 575px) {
-        .hidden-text1 {
-          display: none;
-        }
-
-@media (max-width: 575px) {
-        .hidden-text2 {
-          display: none;
-        }
-
-@media (min-width: 766px) {
-        .hidden-text3 {
-          display: none;
-        }
-@media (max-width: 766px) {
-        .hidden-text4 {
-          display: none;
-        }
+.design{
+    background: rgba(30, 30, 255, 0.4);
+    width: 100%;
+    padding: 10%;
+}
