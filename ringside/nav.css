@@ -21,3 +21,9 @@ select {
     font-size: 30px;
     color: white;
 }
+
+
+.navbar-toggler {
+  color: $navbar-light-color;
+  border-color: $navbar-light-toggler-border-color;
+}
