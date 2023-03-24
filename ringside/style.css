@@ -1,0 +1,9 @@
+body{
+    background: url("background.jpg") no-repeat;
+    background-size: cover;
+
+}
+.card-body img{
+    width: 100%;
+}
+

@@ -1,0 +1,23 @@
+nav ul li a h1{
+    font-size: 30px;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+ul {
+    list-style-type: none;
+    margin-right: 30px;
+}
+ul li{
+    margin-right: 30px;
+}
+#languages {
+    background: black;
+    width: 200px;
+}
+select {
+    font-size: 30px;
+    color: white;
+}
