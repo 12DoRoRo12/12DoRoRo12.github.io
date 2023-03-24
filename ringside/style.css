@@ -8,3 +8,7 @@ body{
 .card button {
     height: 50px;
 }
+
+p {
+    font-size: 30px;
+}
