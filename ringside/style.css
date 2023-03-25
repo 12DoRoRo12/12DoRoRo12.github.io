@@ -1,6 +1,6 @@
 body{
-    background: url("background.jpg") no-repeat center fixed;
-    background-size: cover;
+
+    background-color: #2b3034;
 }
 .card-body img{
     width: 100%;
@@ -11,4 +11,13 @@ body{
 
 p {
     font-size: 30px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.welcome {
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;
 }
