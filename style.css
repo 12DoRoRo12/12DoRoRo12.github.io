@@ -19,16 +19,20 @@ a:link {
 .social-youtube{
     background: #FF0000;
     padding-bottom: 3%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .social-insta{
     background: #833AB4;
     padding-bottom: 3%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+
 
 }
 .social-face{
     background: #4267B2;
     padding-bottom: 3%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 
 }
 
