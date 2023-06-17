@@ -1,0 +1,134 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 5px orange;
+    background-image: linear-gradient(rgb(50, 50, 100), rgb(30, 30, 80));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    z-index: 100;
+
+
+}
+
+
+
+.left {
+    width: 200px;
+    color: white;
+    margin-left: 3%;
+}
+
+.left img {
+    height: 80px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.toggler {
+    width: 50px;
+    padding: 5px;
+    border-radius: 15px;
+
+
+}
+
+.toggler img{
+    width: 100%;
+    display: none;
+
+
+}
+
+.toggler-menu {
+    font-size: 25px;
+    background-color: rgba(40, 40, 40);
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+}
+.toggler-menu div{
+    padding: 10px;
+    border-bottom: solid 1px orange;
+}
+
+@media (max-width: 900px) {
+    .toggler-menu {display: block;}
+    .toggler img{
+        display: block;
+        cursor: pointer;
+    }
+    .toggler { display: block; margin: auto; border: solid 2px black;}
+    .right{display: none;}
+    .center{display: none;}
+    .left {margin: auto;}
+
+}
+
+
+
+
+
+.center{
+    flex: 1;
+    color: white;
+    font-size: 18px;
+}
+
+.center a{
+    margin: 0px 30px;
+
+}
+.center a:hover {
+    color: orange;
+}
+
+
+.menu {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 5%;
+    margin-right: 13%;
+}
+
+
+.menu div{
+    margin: auto;
+}
+
+
+.right {
+    width: 200px;
+
+    position: relative;
+}
+
+.right button {
+    height: 40px;
+    width: 150px;
+    border: solid 1px white;
+    background-color: rgb(50, 50, 100);
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+.right button:hover {
+    background-color: orange;
+}

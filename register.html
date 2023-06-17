@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7JoYwUwpcuMq9lOl9kczOoPSHFHCGodqcV6ndRkAdJhXsiKKsrfUduFfLalVwY4vF2KVvNAvch5aZ3jwzP1aJ0Ccp3zW6ZtVeFY5cYjztDgw5ch4KLmcISCRHvJeWpm-_3X8-Sfa6ZIulc-5V45crJgP6Tg9Zn8kMY4A0UI__enu1bAVhxHp1UyEUDg/w640-h614/gold.png">
+    <title>PyWorld</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "./duck.mp3";
+
+        if ($(window).width() <= 900) {
+            $(document).ready(function(){
+              $(".toggler").click(function(){
+                $(".toggler-menu").slideToggle("slow");
+                $(".toggler").css("border-color", "gray");
+              });
+            });
+            }
+    </script>
+    <script>
+       function submitData(){
+         var name=$("#name").val();
+         var lastname=$("#lastname").val();
+         var email=$("#email").val();
+         var phone=$("#phone").val();
+         var course=$("#course").val();
+         var date=new Date();
+
+         jsonObject = {
+             "Name": "",
+             "Lastname": "",
+             "Email": "",
+             "Phone": "",
+             "CourseID": "",
+             "Date": ""
+         }
+
+         jsonObject.Name = name;
+         jsonObject.Lastname = lastname;
+         jsonObject.Email = email;
+         jsonObject.Phone = phone;
+         jsonObject.CourseID = course;
+         jsonObject.Date = date;
+
+         var str = JSON.stringify(jsonObject);
+         document.write(str);
+
+         const fs = require('fs');
+         fs.appendFileSync('data.txt', 'This is the text that will be appended to the file.');
+
+       }
+    </script>
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+
+
+    <script id="replace_with_navbar" src="nav.js"></script>
+
+<div class="register">
+     <h1 style="margin-bottom: 50px;">დარეგისტრირდი სასურველ კურსზე:</h1>
+        <form id="formid" method="post" action="post">
+          <table>
+           <tr>
+            <td>სახელი:</td>
+            <td><input type="text" name="name" id="name"></td>
+           </tr>
+           <tr>
+            <td>გვარი:</td>
+            <td><input type="text" name="lastname" id="lastname"></td>
+           </tr>
+           <tr>
+            <td>ელ. ფოსტა:</td>
+            <td><input type="email" name="mail" id="email"></td>
+           </tr>
+           <tr>
+            <td>ტელეფონი:</td>
+            <td>
+             <input type="text" name="phone" id="phone">
+            </td>
+           </tr>
+           <tr>
+            <td>კურსის ID:</td>
+            <td>
+             <input type="text" name="course" id="course">
+            </td>
+           </tr>
+           <tr>
+            <td><input id="submit" type="button" value="გაგზავნა" onclick="submitData()"></td>
+           </tr>
+          </table>
+         </form>
+</div>
+
+
+    <script id="replace_with_footer" src="footer.js"></script>
+</body>
