@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="geo" xmlns="http://www.w3.org/1999/html">
 <head>
-    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAzmrysg6VjlPf8UHK5wzQ__Ca9ynUWMOkTQmfl4PBfQMLL3gFq8g7eFqyXsfaE0pl_M8lYRE9U1VWLOc1L87DLS8RI1VzsrqgnU85DeupUApx_G47DNWSc5QBtSJKFYQ3cpT4i8EzRo3tfa_RsFu6IX11GGRQTzfUYm05BYUWNV_Q2TerURj8IYb3MA/w640-h640/gold.png">
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7JoYwUwpcuMq9lOl9kczOoPSHFHCGodqcV6ndRkAdJhXsiKKsrfUduFfLalVwY4vF2KVvNAvch5aZ3jwzP1aJ0Ccp3zW6ZtVeFY5cYjztDgw5ch4KLmcISCRHvJeWpm-_3X8-Sfa6ZIulc-5V45crJgP6Tg9Zn8kMY4A0UI__enu1bAVhxHp1UyEUDg/w640-h614/gold.png">
     <title>PyWorld</title>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
+    <script src="toggler.js"></script>
 
     <script id="replace_with_navbar" src="nav.js"></script>
 
@@ -27,14 +30,7 @@
         <h4>კატალოგზე გადასასვლელად დააკლიკე ღილაკს</h4>
         <a href="https://pyworldgeo.com/courses"><button class="catalog-button"><b>კატალოგი</b></button></a>
     </div>
-    <marquee id="add">
-        <a id="duck" onclick="audio.play();">
-            <img style="height: 50px; width: 50px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXHysazDnEWpKqgFBWbrGmCvDFI3CftTU2K03TBAuPIGUhkzKQb5OWIZ9kuNJyzZvKhAIjMK-tDeS_uP2Eet3Doq6yAwJE52G7xdKOyBrPPZ7z-qPdlAjL8On3TqA77tvvSCykMSg_JGo-OuTWWFlmcqEzQLdh1eMBLA91WNYvjr2hOlIzYGKzoqhmIQ/s320/rubber-duck.png">
-            <img style="position:absolute; bottom:0; left: 50px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGGOgDZHNS3wSVW0wsr-gEjRvX8sE0sPGZfm6TDDSZsNkUO2Lwg8SlD6CH7TIM6hXelGuubb0s5p-ARfFznrimEJcjDizBxVcypd_IjCQEBkWvDHNN6OFgbn0be6D-KMSoZtVKiwBEV_8tOgcvi-RH95yhdi_Ox4aOF9ZmCdti4wUUf4Au_ujP_SULQ/s320/ducky.png">
-            <img style="position:absolute; bottom:0; left: 75px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGGOgDZHNS3wSVW0wsr-gEjRvX8sE0sPGZfm6TDDSZsNkUO2Lwg8SlD6CH7TIM6hXelGuubb0s5p-ARfFznrimEJcjDizBxVcypd_IjCQEBkWvDHNN6OFgbn0be6D-KMSoZtVKiwBEV_8tOgcvi-RH95yhdi_Ox4aOF9ZmCdti4wUUf4Au_ujP_SULQ/s320/ducky.png">
-            <img style="position:absolute; bottom:0; left: 100px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGGOgDZHNS3wSVW0wsr-gEjRvX8sE0sPGZfm6TDDSZsNkUO2Lwg8SlD6CH7TIM6hXelGuubb0s5p-ARfFznrimEJcjDizBxVcypd_IjCQEBkWvDHNN6OFgbn0be6D-KMSoZtVKiwBEV_8tOgcvi-RH95yhdi_Ox4aOF9ZmCdti4wUUf4Au_ujP_SULQ/s320/ducky.png">
-        </a>
-    </marquee>
+
     <div class="icons">
         <a href="https://pyworldgeo.com/courses#id1"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4NoqdILdetg9yLAfalmr_k_YGzvtOqpdIrYiJdIGMOaOi_rbfV-OdiDOeTCELiRO-ZFZwGa--PuwK6I03WIxWzdYENahpZtRHafOhNixvqGVeoBptYjIe35jYFvJA5Bd6VdtyHb_e5-fmlPt3_ptWv7jv6oBYtND3XGS0peFCA38gJx2k1SJ3QMSrYg/w640-h640/programming.jpg"></a>
         <a onclick="audio.play();" href="https://pyworldgeo.com/courses#id5"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM6JwxSAKpN2pEtdjBpNBPa3sUYoQbb85SHAalr1p50o6yOUMEBRhgtisy9pQRQYjLs3Iq5cx00Qd66nkT_Dpqq5_XeQJoR-gX00E6nj7AjTpZ4gXDE-f4ofnpN4PAyzPj61DxR4E_80oF-FiQx7QK-oebQbju6b-hJvTNbAavL2Y67NaVmYNF2-H_0w/w640-h640/mathematics.jpg"></a>
