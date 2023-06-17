@@ -54,7 +54,8 @@ a {
 }
 
 .catalog-button {
-margin-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 150px;
     cursor: pointer;
     height: 30px;
     width: 120px;

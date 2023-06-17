@@ -15,19 +15,6 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-        const audio = new Audio();
-        audio.src = "./duck.mp3";
-
-        if ($(window).width() <= 900) {
-            $(document).ready(function(){
-              $(".toggler").click(function(){
-                $(".toggler-menu").slideToggle("slow");
-                $(".toggler").css("border-color", "gray");
-              });
-            });
-            }
-    </script>
     <script>
        function submitData(){
          var name=$("#name").val();
@@ -62,10 +49,10 @@
        }
     </script>
 
-    {% block head %}{% endblock %}
+
 </head>
 <body>
-
+    <script src="toggler.js"></script>
 
     <script id="replace_with_navbar" src="nav.js"></script>
 
