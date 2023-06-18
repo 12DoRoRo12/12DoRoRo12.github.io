@@ -235,6 +235,10 @@ a {
     margin: 100px 50px;
 }
 
+input{
+    width: 100%;
+}
+
 #submit {
     color: black;
     margin-top: 25px;
