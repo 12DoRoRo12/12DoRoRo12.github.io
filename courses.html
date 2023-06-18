@@ -19,7 +19,18 @@
 </head>
 <body>
     <script src="toggler.js"></script>
-
+    <script type="text/javascript">
+        if ($(window).width() <= 900) {
+            $(document).ready(function(){
+              $(".toggler").click(function(){
+                $(".toggler-menu").slideToggle("slow");
+                $(".toggler").css("border-color", "gray");
+              });
+            });
+            }
+    </script>
+    <div class="toggler"></div>
+    <div class="toggler-menu"></div>
     <script id="replace_with_navbar" src="nav.js"></script>
 
     <h1 style="text-align: center; margin-top: 100px;">ონლაინ კურსების კატალოგი</h1>
