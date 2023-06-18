@@ -18,10 +18,7 @@
 
 </head>
 <body>
-    <script type="text/javascript">
-            const audio = new Audio();
-            audio.src = "./duck.mp3";
-    </script>
+
     <script id="replace_with_navbar" src="nav.js"></script>
     <script type="text/javascript">
         if ($(window).width() <= 900) {
@@ -32,6 +29,8 @@
               });
             });
             }
+        const audio = new Audio();
+        audio.src = "./duck.mp3";
     </script>
     <div class="toggler" style="height: 0px; border: none; position: absolute; top: 0;"></div>
     <div class="toggler-menu" style="height: 0px; position: absolute; top: 0;"></div>
