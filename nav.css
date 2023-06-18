@@ -1,4 +1,4 @@
-.nav {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,103 +13,33 @@
     height: 100px;
     z-index: 100;
 
-
 }
 
-
-
-.left {
-    width: 200px;
-    color: white;
-    margin-left: 3%;
-}
-
-.left img {
+#logo img{
     height: 80px;
     margin-top: -5%;
     cursor: pointer;
 }
 
-.toggler {
-    width: 50px;
-    padding: 5px;
-    border-radius: 15px;
-
-
-}
-
-.toggler img{
-    width: 100%;
-    display: none;
-
-
-}
-
-.toggler-menu {
-    font-size: 25px;
-    background-color: rgba(40, 40, 40);
-    text-align: center;
-    display: none;
-    position: fixed;
-    top: 100px;
-    left: 0;
-    right: 0;
-    z-index: 99;
-
-}
-.toggler-menu div{
-    padding: 10px;
-    border-bottom: solid 1px orange;
-}
-
-@media (max-width: 900px) {
-    .toggler-menu {display: block;}
-    .toggler img{
-        display: block;
-        cursor: pointer;
-    }
-    .toggler { display: block; margin: auto; border: solid 2px black;}
-    .right{display: none;}
-    .center{display: none;}
-    .left {margin: auto;}
-
-}
-
-
-
-
-
-.center{
-    flex: 1;
+.nav-link {
     color: white;
     font-size: 25px;
 }
 
-.center a{
-    margin: 0px 30px;
-
+.navbar-nav {
+    margin-left: auto;
 }
-.center a:hover {
+
+.navbar-nav li {
+     margin: 0px 40px;
+}
+
+.nav-item a:hover {
     color: orange;
 }
 
-
-.menu {
-    display: flex;
-    margin-top: 1.2%;
-    margin-left: 5%;
-    margin-right: 13%;
-}
-
-
-.menu div{
-    margin: auto;
-}
-
-
 .right {
     width: 200px;
-
     position: relative;
 }
 
@@ -121,14 +51,39 @@
     color: white;
     border-radius: 50px;
     position: absolute;
-    top: 18%;
-    left: 0%;
     font-size: 20px;
     cursor: pointer;
-
-
+    margin: -10%;
 }
 
 .right button:hover {
     background-color: orange;
+}
+
+.reg {
+        display: none;
+    }
+
+@media (max-width: 990px) {
+
+    .me-auto {
+        background: rgba(40, 40, 40);
+        margin-top: 1%;
+        padding: 0px 50px;
+        text-align: center;
+
+    }
+
+    .me-auto a {
+        border-bottom: solid 1px orange;
+
+    }
+
+    .reg {
+        display: block;
+    }
+
+    .registration {
+        display: none;
+    }
 }
