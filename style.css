@@ -104,7 +104,11 @@ a {
     }
     #formid {
         width: 250px;
-}
+
+    }
+    .catalog-button {
+        margin-bottom: 80px;
+    }
 
 }
 
