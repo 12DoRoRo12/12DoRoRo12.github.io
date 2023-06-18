@@ -91,6 +91,7 @@
     .navbar-toggler {
           color: $navbar-light-color;
           border-color: $navbar-light-toggler-border-color;
+          margin-top: -2%;
     }
     .navbar .navbar-toggler{
           border-color: white;
