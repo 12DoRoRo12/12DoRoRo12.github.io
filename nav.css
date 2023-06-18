@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 120px;
+    height: 100px;
     z-index: 100;
 
 
@@ -26,7 +26,7 @@
 
 .left img {
     height: 80px;
-    margin-top: 2%;
+    margin-top: -5%;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@
     text-align: center;
     display: none;
     position: fixed;
-    top: 120px;
+    top: 100px;
     left: 0;
     right: 0;
     z-index: 99;
@@ -82,7 +82,7 @@
 .center{
     flex: 1;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .center a{
@@ -96,7 +96,7 @@
 
 .menu {
     display: flex;
-    margin-top: 35px;
+    margin-top: 1.2%;
     margin-left: 5%;
     margin-right: 13%;
 }
@@ -115,15 +115,15 @@
 
 .right button {
     height: 40px;
-    width: 150px;
+    width: 180px;
     border: solid 1px white;
     background-color: rgb(50, 50, 100);
     color: white;
     border-radius: 50px;
     position: absolute;
-    top: 35%;
+    top: 15%;
     left: 0%;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
 
 
