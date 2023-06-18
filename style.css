@@ -103,7 +103,7 @@ a {
         grid-template-columns: 1fr;
     }
     #formid {
-    width: 250px;
+        width: 250px;
 }
 
 }
@@ -231,7 +231,7 @@ a {
 
 }
 
-.register {
+.register-form {
     margin: 100px 50px;
 }
 
