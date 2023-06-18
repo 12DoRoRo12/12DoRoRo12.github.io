@@ -49,7 +49,7 @@
 @media (min-width: 700px) {
     .catalog {
         grid-template-columns: 1fr;
-        margin: 5px;
+        margin: 5px 0px;
     }
 
 }
