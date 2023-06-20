@@ -90,11 +90,13 @@
     }
     .navbar-toggler {
           color: $navbar-light-color;
-          border-color: $navbar-light-toggler-border-color;
+          border-color: white;
           margin-top: -2%;
     }
-    .navbar .navbar-toggler{
-          border-color: white;
-        }
+    .navbar-toggler-icon {
+    filter: invert(100%);
+    }
+
+
 }
 
