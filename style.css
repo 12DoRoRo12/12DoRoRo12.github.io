@@ -54,14 +54,19 @@ a {
 }
 
 .catalog-button {
+    height: 40px;
+    width: 180px;
+    border: solid 1px black;
+    box-shadow: 1px 2px 5px black;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+
     margin-top: 50px;
     margin-bottom: 150px;
-    cursor: pointer;
-    height: 30px;
-    width: 120px;
     background-color: rgb(255,165,0);
-    border-radius: 20%;
-    border: solid 1px black;
+
 }
 .catalog-button:hover{
     background-color: rgb(50, 50, 100);
