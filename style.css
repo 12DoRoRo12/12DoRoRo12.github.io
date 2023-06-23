@@ -269,3 +269,6 @@ input{
     width: 250px;
 }
 
+#duckling {
+    display: none;
+}

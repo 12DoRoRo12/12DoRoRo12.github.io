@@ -178,3 +178,31 @@
         opacity: 1;
      }
 }
+
+.gameblock {
+    border-radius: 15px;
+    margin: 30px 5px;
+    padding: 15px;
+    background-color: rgba(50, 200, 100, 0.3);
+    text-align: left;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+
+
+}
+
+.playgame {
+    border: 2px solid rgb(50, 100, 50);
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.playgame:hover {
+    background-color: yellow;
+    color: green;
+    border: 2px solid white;
+}
