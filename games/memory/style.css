@@ -8,7 +8,7 @@ html {
 .game {
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .controls {
@@ -60,8 +60,8 @@ button {
 }
 .card {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
 }
 .card-front,
