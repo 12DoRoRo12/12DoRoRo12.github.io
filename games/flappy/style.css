@@ -69,7 +69,10 @@
 		font-size: 50px;
 		top: 50%;
 		white-space: nowrap;
+		font-size: 1em;
+        left: 50%;
 	}
+
 	.score{
 		font-size: 8vh;
 	}
@@ -82,14 +85,4 @@
 	}
 }
 
-@media (max-width: 725px) {
-    .message {
-        font-size: 1em;
-        left: 50%;
-    }
-    #bird-1 {
-        width: 200px;
-        height: 200px;
-    }
 
-}
