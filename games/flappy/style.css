@@ -81,3 +81,15 @@
 		width: 14vw;
 	}
 }
+
+@media (max-width: 725px) {
+    .message {
+        font-size: 1em;
+        left: 50%;
+    }
+    #bird-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+}

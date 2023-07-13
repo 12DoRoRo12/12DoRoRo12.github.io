@@ -101,6 +101,7 @@ function play(){
 
     let pipe_gap = 45;
 
+
     function create_pipe(){
         if(game_state != 'Play') return;
 
