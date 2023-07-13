@@ -130,3 +130,10 @@ input:focus, select:focus {
 	    width: 120px;
 	}
 }
+
+@media (max-width: 425px) {
+    #mazeContainer #mazeCanvas {
+        height: 350px;
+    }
+
+}
