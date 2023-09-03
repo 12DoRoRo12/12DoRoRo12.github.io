@@ -182,7 +182,10 @@ a {
     margin-right: auto;
     margin-top: 5%;
     width: 500px;
-    height: 280px;
+    height: 290px;
+    border: solid 10px white;
+    background: orange;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
 
 
 
