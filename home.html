@@ -18,17 +18,17 @@
 
     <script>
       function play() {
-        var audio = document.getElementById("duckling");
+        var audio = document.getElementById("programming");
         audio.play();
       }
     </script>
 </head>
 <body>
-    <audio id="duckling" controls src="duck.mp3"></audio>
+    <audio id="programming" controls src="typing.mp3"></audio>
     <script id="replace_with_navbar" src="nav.js"></script>
 
 
-    <img class="welcome-image" src="https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <img class="welcome-image" src="images/hack.jpg">
     <div class="greeting">
         <h1><b>მოგესალმებით ჩვენს პლატფორმაზე</b></h1>
         <h1><b>გთავაზობთ ონლაინ კურსებს <br>მრავალი მიმართულებით</b></h1>
@@ -37,8 +37,8 @@
 
 
     <marquee id="add">
-        <a id="duck" onclick="play()">
-            <img style="height: 50px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6X95eItKQFJYhbMp4eQ6hx2pPe4zq3UfkZGyGPfk4iKB0F0V81vgVjFx_3jX6PZSrjkMX2mVHhSBtB0xcLcjfKkvoDTnmK8nae5-rp98052ZnZWPPhcBMSPAdyLrohysYV-EEk1E3CZFnBvdAoZfdQwybn9NtEZQ89ES9RR2SykynxlJJzEHOTHKZW2dl/w640-h214/colon.png">
+        <a id="programmer" onclick="play()">
+            <img style="height: 70px;" src="images/programmer.png">
         </a>
     </marquee>
     <div class="icons">
@@ -47,49 +47,16 @@
         <a href="https://pyworldgeo.com/courses#id7"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpm1KFzk5bsFR5SIG5F8PW40DqgnLYriqmDBimf2LkpMR1z_HSRc_eRmeVw29N_T5wBjrN7VsHMmqgl3D9Z7C9YJUyuruXhtawfeJKb7a3IMnsnHGdxZKNhRULRDUHe5kga3m2gbq_Swlltb-CBWQlYl_IQ5x5jC0Jb7mC1OvnYmWu2kg9hFAtSOAYuQ/w640-h640/english.jpg"></a>
     </div>
 
-    <div class="questions">
-        <h2 class="asked">ხშირად დასმული შეკითხვები:</h2>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item" style="border: none; border-bottom: solid 1px orange;">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                ვის შეუძლია კურსების გავლა?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                ჩვენი საგანმანათლებლო კურსები ხელმისაწვდომია როგორც ბავშვებისა და მოზარდებისთვის, ასევე ზრდასრული ადამიანებისთვის. ზოგიერთი კურსი განკუთვნილია კონკრეტული ასაკის ადამიანებისთვის და საჭიროებს წინაპირობას, დეტალები მოცემულია კურსების აღწერაში.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item" style="border: none; border-bottom: solid 1px orange;">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                სად ტარდება კურსები?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                კურსები ტარდება დისტანციურად, ონლაინ. გამართული კომპიუტერის არსებობა და ინტერნეტზე წვდომა საკმარისია კურსის გასავლელად.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item" style="border: none; border-bottom: solid 1px orange;">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                გაიცემა თუ არა სერთიფიკატი კურსის დასრულების შემდეგ?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                PyWorld_ის კურსები განკუთვნილია მათთვის ვისაც სურს გაიღრმაოს ცოდნა კონკრეტული მიმართულებებით და შეიძინოს საჭირო უნარები კარიერის ასაწყობად. პლატფორმა არ გასცემს სერთიფიკატს, თუმცა კურსზე მიღებული ცოდნის გამოყენებით თქვენ გექნებათ შესაძლებლობა აიღოთ სასურველი სერთიფიკატი დამოუკიდებლად.
-              </div>
-            </div>
-          </div>
 
-        </div>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <video controls="true" oncontextmenu="disable" class="welcome-video embed-responsive-item">
+          <source src="images/hero.mp4?autoplay=0" type="video/mp4" />
+        </video>
     </div>
+
+
 
     <section class="p-5" style="text-align: center;">
         <div class="container">
