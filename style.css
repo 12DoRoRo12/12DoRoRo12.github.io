@@ -64,7 +64,7 @@ a {
     cursor: pointer;
 
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     background-color: rgb(255,165,0);
 
 }
@@ -112,7 +112,7 @@ a {
 
     }
     .catalog-button {
-        margin-bottom: 80px;
+        margin-bottom: 20px;
     }
     .welcome-video {
         width: 90%;
