@@ -45,7 +45,7 @@ a {
 
 .greeting {
     margin-top: 100px;
-    color: white;
+    color: rgb(186, 18, 194);
     text-align: center;
 }
 
@@ -181,7 +181,7 @@ a {
 }
 
 .welcome-image {
-    margin-top: -10%;
+    margin-top: 0%;
     width: 100%;
 }
 
