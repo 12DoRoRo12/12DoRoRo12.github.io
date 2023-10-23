@@ -4,8 +4,8 @@
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: solid 5px orange;
-    background-image: linear-gradient(rgb(40, 40, 50), rgb(30, 30, 20));
+    border-bottom: solid 5px rgba(40, 40, 40, 0.9);
+    background-image: linear-gradient(rgb(186, 18, 194), rgb(40, 40, 40));
     position: fixed;
     top: 0;
     left: 0;
@@ -19,6 +19,8 @@
     height: 80px;
     margin-top: -5%;
     cursor: pointer;
+    border-radius: 50%;
+    border: solid 1px black;
 }
 
 .nav-link {
@@ -35,7 +37,7 @@
 }
 
 .nav-item a:hover {
-    color: orange;
+    color: yellow;
 }
 
 .right {
@@ -47,7 +49,7 @@
     height: 40px;
     width: 180px;
     border: solid 1px white;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(186, 18, 194);
     color: white;
     border-radius: 50px;
     position: absolute;
@@ -57,7 +59,8 @@
 }
 
 .right button:hover {
-    background-color: orange;
+    background-color: yellow;
+    color: black;
 }
 
 .reg {
