@@ -194,8 +194,8 @@
 .playgame {
     border: 2px solid rgb(50, 100, 50);
     padding: 5px 10px;
-    background-color: orange;
-    color: white;
+    background-color: yellow;
+    color: black;
     font-weight: bold;
     border-radius: 10%;
     margin-top: 50px;
@@ -203,7 +203,7 @@
 }
 
 .playgame:hover {
-    background-color: yellow;
-    color: green;
+    background-color: rgb(186, 18, 194);
+    color: white;
     border: 2px solid white;
 }
