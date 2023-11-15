@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="New Video">
-      <change afterPath="$PROJECT_DIR$/images/Python_syllabus.pdf" afterDir="false" />
+    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="New python syllabus">
+      <change afterPath="$PROJECT_DIR$/images/mathematics_syllabus.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,20 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "12DoRoRo12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e8ea4f58-62c7-4811-b617-6dcc4c77f363" />
+        <option name="url" value="https://github.com/12DoRoRo12/12DoRoRo12.github.io.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -272,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700069358624</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="New python syllabus">
+      <option name="closed" value="true" />
+      <created>1700071147225</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1700071147225</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,6 +309,7 @@
     <MESSAGE value="Redesign" />
     <MESSAGE value="New logo" />
     <MESSAGE value="New Video" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Video" />
+    <MESSAGE value="New python syllabus" />
+    <option name="LAST_COMMIT_MESSAGE" value="New python syllabus" />
   </component>
 </project>
