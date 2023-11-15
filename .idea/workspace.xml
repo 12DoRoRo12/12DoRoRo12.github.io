@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="New python syllabus">
-      <change afterPath="$PROJECT_DIR$/images/mathematics_syllabus.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
-    </list>
+    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="New mathematics syllabus" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700071147225</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="New mathematics syllabus">
+      <option name="closed" value="true" />
+      <created>1700071909188</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1700071909188</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +315,7 @@
     <MESSAGE value="New logo" />
     <MESSAGE value="New Video" />
     <MESSAGE value="New python syllabus" />
-    <option name="LAST_COMMIT_MESSAGE" value="New python syllabus" />
+    <MESSAGE value="New mathematics syllabus" />
+    <option name="LAST_COMMIT_MESSAGE" value="New mathematics syllabus" />
   </component>
 </project>
