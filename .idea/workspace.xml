@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="მატჰ ცჰანგე">
-      <change afterPath="$PROJECT_DIR$/about.css" afterDir="false" />
+    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="new design3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mob_poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/mob_poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/poster.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,9 @@
     &quot;assignee&quot;: &quot;12DoRoRo12&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="e8ea4f58-62c7-4811-b617-6dcc4c77f363" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -51,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "G:/programming projects/12DoRoRo12.github.io/images"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/programming projects/12DoRoRo12.github.io/images&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\programming projects\12DoRoRo12.github.io\images" />
@@ -334,7 +330,63 @@
       <option name="project" value="LOCAL" />
       <updated>1700113198995</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="new design2">
+      <option name="closed" value="true" />
+      <created>1706597075940</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706597075940</updated>
+    </task>
+    <task id="LOCAL-00037" summary="new design2">
+      <option name="closed" value="true" />
+      <created>1706597105280</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706597105280</updated>
+    </task>
+    <task id="LOCAL-00038" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706598557385</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706598557385</updated>
+    </task>
+    <task id="LOCAL-00039" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706598675624</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706598675624</updated>
+    </task>
+    <task id="LOCAL-00040" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706598770840</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1706598770840</updated>
+    </task>
+    <task id="LOCAL-00041" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706598830717</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706598830717</updated>
+    </task>
+    <task id="LOCAL-00042" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706599140039</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1706599140039</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -354,6 +406,9 @@
     <MESSAGE value=".idea/workspace.xml" />
     <MESSAGE value="video name change" />
     <MESSAGE value="მატჰ ცჰანგე" />
-    <option name="LAST_COMMIT_MESSAGE" value="მატჰ ცჰანგე" />
+    <MESSAGE value="new design" />
+    <MESSAGE value="new design2" />
+    <MESSAGE value="new design3" />
+    <option name="LAST_COMMIT_MESSAGE" value="new design3" />
   </component>
 </project>
