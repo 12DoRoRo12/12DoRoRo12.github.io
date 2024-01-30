@@ -1,0 +1,19 @@
+.about img {
+    border-bottom: 5px solid rgb(40, 40, 40);
+    border-radius: 50%;
+}
+
+.about {
+    width: 90vw;
+    margin: 5vw;
+}
+
+.about h1 {
+    margin-top: 5vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+

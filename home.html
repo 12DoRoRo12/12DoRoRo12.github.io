@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="courses.css">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -16,98 +16,157 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="nav.css">
 
-    <script>
-      function play() {
-        var audio = document.getElementById("programming");
-        audio.play();
-      }
-    </script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+<!--    <script>-->
+<!--      function play() {-->
+<!--        var audio = document.getElementById("programming");-->
+<!--        audio.play();-->
+<!--      }-->
+<!--    </script>-->
 </head>
 <body>
-    <audio id="programming" controls src="typing.mp3"></audio>
+<!--    <audio id="programming" controls src="typing.mp3"></audio>-->
     <script id="replace_with_navbar" src="nav.js"></script>
 
 
-    <img class="welcome-image" src="images/student.png">
-    <div class="greeting">
-        <h1><b><i>Follow The Future!</i></b></h1>
-        <a href="https://pyworldgeo.com/courses"><button class="catalog-button"><b>კატალოგი</b></button></a>
-    </div>
+        <picture>
+      <source media="(max-width: 950px)" srcset="images/mob_poster.jpg">
+      <source media="(min-width: 951px)" srcset="images/poster.jpg">
+      <img style="width: 100vw;" src="images.main_poster" alt="Banner">
+    </picture>
 
-
-    <marquee id="add">
-        <a id="programmer" onclick="play()">
-            <img style="height: 70px;" src="images/programmer.png">
+    <marquee>
+        <a id="year" onclick="play()" style="color: black;">
+            <h5>2024</h5>
+            <img style="height: 70px;" src="images/dragon.png">
         </a>
     </marquee>
 
-    <div class="icons">
-        <a href="https://pyworldgeo.com/courses#id1"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4NoqdILdetg9yLAfalmr_k_YGzvtOqpdIrYiJdIGMOaOi_rbfV-OdiDOeTCELiRO-ZFZwGa--PuwK6I03WIxWzdYENahpZtRHafOhNixvqGVeoBptYjIe35jYFvJA5Bd6VdtyHb_e5-fmlPt3_ptWv7jv6oBYtND3XGS0peFCA38gJx2k1SJ3QMSrYg/w640-h640/programming.jpg"></a>
-        <a onclick="audio.play();" href="https://pyworldgeo.com/courses#id5"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM6JwxSAKpN2pEtdjBpNBPa3sUYoQbb85SHAalr1p50o6yOUMEBRhgtisy9pQRQYjLs3Iq5cx00Qd66nkT_Dpqq5_XeQJoR-gX00E6nj7AjTpZ4gXDE-f4ofnpN4PAyzPj61DxR4E_80oF-FiQx7QK-oebQbju6b-hJvTNbAavL2Y67NaVmYNF2-H_0w/w640-h640/mathematics.jpg"></a>
-        <a href="https://pyworldgeo.com/courses#id7"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpm1KFzk5bsFR5SIG5F8PW40DqgnLYriqmDBimf2LkpMR1z_HSRc_eRmeVw29N_T5wBjrN7VsHMmqgl3D9Z7C9YJUyuruXhtawfeJKb7a3IMnsnHGdxZKNhRULRDUHe5kga3m2gbq_Swlltb-CBWQlYl_IQ5x5jC0Jb7mC1OvnYmWu2kg9hFAtSOAYuQ/w640-h640/english.jpg"></a>
+    <div id="statistics">
+        <h1>Most used programming languages among developers worldwide as of 2023</h1>
+        <h4>JavaScript</h4>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="63.61" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning text-dark" style="width: 63.61%">63.61%</div>
+        </div>
+        <h4>Python</h4>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="49.28" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 49.28%">49.28%</div>
+        </div>
+        <h4>SQL</h4>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="48.66" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info text-dark" style="width: 48.66%">48.66%</div>
+        </div>
+        <h4>TypeScript</h4>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="38.87" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 38.87%">38.87%</div>
+        </div>
+    </div>
+
+    <div id="courses">
+        <div class="card mb-3" style="max-width: 90vw;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/images/python_poster.png" class="img-fluid rounded-start" alt="Banner">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Python Programming Language Crach Course</h1>
+                <p style="padding-bottom: 100px;" class="card-text">After introduction of basic <b>data types</b>, student will learn <b>functional programming (FP)</b> and <b>object oriented programming (OOP)</b>. At the end of the program student will know how to use different modules and libraries and how to create web application using <b>django</b> with database and <b>HTML/CSS</b> files. During six months of developing programming skills there will be 48 lectures held, in total 72 hours. In this time, student will create own portfolio on <b>GitHub</b>.
+                </p>
+              </div>
+                <button class="register">Register</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div id="down">
+        <h1>Get Started!</h1>
+        <h3>Download Python Interpreter And Desired IDE!</h3>
+
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="btnradio1">Windows</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio2">macOS</label>
+
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio3">Linux</label>
+        </div>
+    </div>
+    <div>
+            <div id="downloads" class="text-center g-4">
+
+              <a href="https://www.python.org/" target="_blank" class="btn mb-2" style="display: inline-block;">
+                  <div class="col-md b">
+                      <div class="h1 mb-3"><img style="width: 50%;" src="/images/python.png" alt="Icon"></div>
+                      <h3 class="card-title mb-3">Python</h3>
+                  </div>
+              </a>
+
+              <a href="https://www.jetbrains.com/pycharm/download/?section=windows&code=PCC" target="_blank" class="btn mb-2" style="display: inline-block;">
+                  <div class="col-md b">
+                      <div class="h1 mb-3"><img style="width: 50%;" src="/images/pycharm.png" alt="Icon"></div>
+                        <h3 class="card-title mb-3">PyCharm</h3>
+                  </div>
+              </a>
+
+              <a href="https://code.visualstudio.com/download" target="_blank"  class="btn mb-2" style="display: inline-block;">
+                  <div class="col-md b">
+                      <div class="h1 mb-3"><img style="width: 50%;" src="/images/vscode.png" alt="Icon"></div>
+                      <h3 class="card-title mb-3">VS Code</h3>
+                  </div>
+              </a>
+            </div>
     </div>
 
 
 
-
-    <div class="embed-responsive embed-responsive-16by9">
-        <video controls="true" oncontextmenu="disable" class="welcome-video embed-responsive-item">
-          <source src="images/hero.mp4?autoplay=0" type="video/mp4" />
-        </video>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/2D_Game_1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Create 2D Game</h5>
+            <p>PyWorld will help you with this challenging task!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/2D_Game_2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Create 2D Game</h5>
+            <p>PyWorld will help you with this challenging task!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/2D_Game_3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Create 2D Game</h5>
+            <p>PyWorld will help you with this challenging task!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="color: black;" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-
-
-    <section class="p-5" style="text-align: center;">
-        <div class="container">
-          <div>
-            <h1 class="mb-3 mt-5 mb-md-0" style="font-size: 40px; color: white;"><b><i>გვიპოვე სოციალურ სივრცეში:</i></b> </h1>
-          </div>
-
-        </div>
-    </section>
-
-
-       <section>
-
-        <div class="text-center g-4">
-
-          <a href="https://www.facebook.com/pyworldgeorgia/" target="_blank" class="btn mb-2" style="display: inline-block;">
-          <div class="col-md b">
-            <div class="social-face text-light">
-              <div class="body text-center">
-              <div class="h1 mb-3"><i class="bi bi-facebook"></i></div>
-                <h3 class="card-title mb-3">Facebook</h3>
-              </div>
-            </div>
-          </div>
-            </a>
-
-          <a href="https://www.instagram.com/pyworldgeorgia/" target="_blank"  class="btn mb-2" style="display: inline-block;">
-          <div class="col-md b">
-            <div class="social-insta text-light">
-              <div class="body text-center">
-              <div class="h1 mb-3"><i class="bi bi-instagram"></i></div>
-              <h3 class="card-title mb-3">Instagram</h3>
-              </div>
-            </div>
-          </div>
-            </a>
-
-
-          <a href="https://www.youtube.com/@pyworld6481/" target="_blank" class="btn mb-2" style="display: inline-block;">
-          <div class="col-md b">
-            <div class="social-youtube text-light">
-              <div class="body text-center">
-              <div class="h1 mb-3"><i class="bi bi-youtube"></i></div>
-              <h3 class="card-title mb-3">YouTube</h3>
-              </div>
-            </div>
-          </div>
-            </a>
-        </div>
-
-    </section>
 
     <script id="replace_with_footer" src="footer.js"></script>
 </body>

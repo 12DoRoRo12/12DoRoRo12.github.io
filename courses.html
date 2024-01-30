@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="courses.css">
+    <link rel="stylesheet" type="text/css" href="base.css">
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -16,6 +16,12 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="nav.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -24,102 +30,28 @@
 
 
 
-    <h1 style="text-align: center; margin-top: 100px;"><i>ონლაინ კურსების კატალოგი</i></h1>
-    <div class="catalog" >
-        <div class="block" id="id1">
-            <img class="wallpaper" src="images/python_poster.png">
-            <h1>Python</h1>
-            <h3>პროგრამირების ენის საფუძვლები</h3>
-            <a target="_blank" href="images/Python_syllabus.pdf" download="python_course_syllabus.pdf"><button>სილაბუსი</button></a>
-
-            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGJnz3GC2nIaeITg0oC4E3dhRoRmtrNYuzBkBZ_UYJ1vMpHZZI01dVpCdQiecc3WkvmN4bZKlkjgV__fSTWIUxV-KoGBJlGeRmzzVmuVsX1Z0FqYp9ETEofhuyqU_nkZc_fXC8t948Ra_va1j-kYh2IVS6HKI9VxE5sEPhIQH0oG9GabLBNPLABhq2gg/w200-h200/$RHDSEIB.png">
-<!--            <div id="python">-->
-<!--                <div class="courseInfo" id="courseInfoPython">-->
-<!--                    <p><strong>კურსის შესახებ:</strong><br>ასაკობრივი ზღვარი: 12-55<br>კურსის ხანგრძლივობა: 2 თვე<br>ჯამური სალექციო დრო: 24 საათი</p>-->
-<!--                </div>-->
-<!--            </div>-->
+<!--    <h1 style="margin: 50px 70px;">All Courses:</h1>-->
+<!--    <ul>-->
+<!--        {% for todo in todos %}-->
+<!--        <li>{{ todo.title }}: {% if todo.completed %} Completed {%else%} Not Completed {% endif %}</li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+    <div id="courses" style="margin-top: 50px;">
+        <div class="card mb-3" style="max-width: 90vw;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="/images/python_poster.png" class="img-fluid rounded-start" alt="Banner">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Python Programming Language Crach Course</h1>
+                <p style="padding-bottom: 100px;" class="card-text">After introduction of basic <b>data types</b>, student will learn <b>functional programming (FP)</b> and <b>object oriented programming (OOP)</b>. At the end of the program student will know how to use different modules and libraries and how to create web application using <b>django</b> with database and <b>HTML/CSS</b> files. During six months of developing programming skills there will be 48 lectures held, in total 72 hours. In this time, student will create own portfolio on <b>GitHub</b>.
+                </p>
+              </div>
+                <button class="register">Register</button>
+            </div>
+          </div>
         </div>
-
-<!--        <div class="block" id="id3">-->
-<!--            <img class="wallpaper" src="images/visual.jpg">-->
-<!--            <h1>Turtle</h1>-->
-<!--            <h3>ვიზუალური პროგრამირება</h3>-->
-<!--            <a target="_blank" href="https://drive.google.com/file/d/1_t2xq4c4z8aPK9gVK79-9jy5sh9SCtRH/view?usp=sharing" download="syllabus.pdf"><button>სილაბუსი</button></a>-->
-<!--            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGJnz3GC2nIaeITg0oC4E3dhRoRmtrNYuzBkBZ_UYJ1vMpHZZI01dVpCdQiecc3WkvmN4bZKlkjgV__fSTWIUxV-KoGBJlGeRmzzVmuVsX1Z0FqYp9ETEofhuyqU_nkZc_fXC8t948Ra_va1j-kYh2IVS6HKI9VxE5sEPhIQH0oG9GabLBNPLABhq2gg/w200-h200/$RHDSEIB.png">-->
-<!--&lt;!&ndash;            <div id="turtle">&ndash;&gt;-->
-<!--&lt;!&ndash;                <div class="courseInfo" id="courseInfoTurtle">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <p><strong>კურსის შესახებ:</strong><br>ასაკობრივი ზღვარი: 12-55<br>კურსის ხანგრძლივობა: 3 თვე<br>ჯამური სალექციო დრო: 18 საათი</p>&ndash;&gt;-->
-<!--&lt;!&ndash;                </div>&ndash;&gt;-->
-<!--&lt;!&ndash;            </div>&ndash;&gt;-->
-<!--        </div>-->
-
-<!--        <div class="block" id="id2">-->
-<!--            <img class="wallpaper" src="images/2d.jpg">-->
-<!--            <h1>Pygame</h1>-->
-<!--            <h3>2D თამაშების <br>აწყობა</h3>-->
-<!--            <a target="_blank" href="https://drive.google.com/file/d/17dxpZ3f17QXcir_dJ8B-x4-WSMQdo5Tv/view?usp=sharing" download="syllabus.pdf"><button>სილაბუსი</button></a>-->
-<!--            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGJnz3GC2nIaeITg0oC4E3dhRoRmtrNYuzBkBZ_UYJ1vMpHZZI01dVpCdQiecc3WkvmN4bZKlkjgV__fSTWIUxV-KoGBJlGeRmzzVmuVsX1Z0FqYp9ETEofhuyqU_nkZc_fXC8t948Ra_va1j-kYh2IVS6HKI9VxE5sEPhIQH0oG9GabLBNPLABhq2gg/w200-h200/$RHDSEIB.png">-->
-<!--&lt;!&ndash;            <div id="pygame">&ndash;&gt;-->
-<!--&lt;!&ndash;                <div class="courseInfo" id="courseInfoPygame">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <p><strong>კურსის შესახებ:</strong><br>ასაკობრივი ზღვარი: 12-55<br>კურსის ხანგრძლივობა: 3 თვე<br>ჯამური სალექციო დრო: 36 საათი</p>&ndash;&gt;-->
-<!--&lt;!&ndash;                </div>&ndash;&gt;-->
-<!--&lt;!&ndash;            </div>&ndash;&gt;-->
-<!--        </div>-->
-
-<!--        <div class="block" id="id4">-->
-<!--            <img class="wallpaper" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6mNMuU8ORWotQ6BsJSWs2wPx6HTzqXCiEIKXVOuw1knqv5gQyneYpqLodJlUnRYUdpYPo-sDRdb-EA_Ut9Le907X4P_j-LlbgK0opqD2jyyJSK-pf6rzzNEfaIz5_dmR0HveLMn8UTeKMd8mB9NMALlBPiqqxK5AnVw_TiTfx0kehWX1rqlP4vWFNAw/w640-h426/why_programming.webp">-->
-<!--            <h1>ვებ დიზაინი</h1>-->
-<!--            <h3>HTML/CSS_ის საფუძვლები</h3>-->
-
-<!--            <a target="_blank" href="https://drive.google.com/file/d/1nKwqYyOrKZg_heCSNLyUI_MvQIvWYgEw/view?usp=sharing" download="syllabus.pdf"><button type="submit">სილაბუსი</button></a>-->
-
-<!--            <img class="icon" style="height: 80px; width: 120px; bottom: -5px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx7cdC94Zm8ruldftr2dP-O1-9FTWmFMmDtDXAWQVQ5EnvHRY2Kp7iPDlkGCv7Jj-AMzEQYx6jnOEXpV_mdH78jemAzJIhKUjvaEusLeOAWOcTsro0sSaJMme-GZ1ucG7AaGCxlvdPPynEb8oOppdnNO624mhOxjy21WjrP6y3ICXfP4g5ys4JiN87Tg/s320/html.png">-->
-<!--            <div id="webd">-->
-<!--                <div class="courseInfo" id="courseInfoWebd">-->
-<!--                    <p><strong>კურსის შესახებ:</strong><br>ასაკობრივი ზღვარი: 15-55<br>კურსის ხანგრძლივობა: 2 თვე<br>ჯამური სალექციო დრო: 24 საათი</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <div class="block" id="id5">
-            <img class="wallpaper" src="images/mathematics.png">
-            <h1>მათემატიკა</h1>
-            <h3>12 კლასის მომცველი მათემატიკის კურსი</h3>
-            <a target="_blank" href="images/mathematics_syllabus.pdf" download="mathematics_course_syllabus.pdf"><button>სილაბუსი</button></a>
-
-            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxfT2jRT2AqCn5SI8kVF4LdeKXhOqsWqFORy0QKqNGWmX5PFJtbiZUPX1CENMbEbgfkkvo3jf8iPWqS81wHmOwcP766RV-AIDJhjhwMYqlfBrCvQIqFyU88iwfwCsnPsidYJz0SAG6Fg6jGTF6CiGblq_0G67k2eMiXvz6EXNZLxrIArLYbJVNuGQOLg/s320/calculator.png">
-<!--            <div id="math">-->
-<!--                <div class="courseInfo" id="courseInfoMath">-->
-<!--                    <p><strong>მალე გაეშვება</strong><br></p>-->
-<!--                </div>-->
-<!--            </div>-->
-        </div>
-<!--        <div class="block" id="id6">-->
-<!--            <img class="wallpaper" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj62sxLU4sbEctVBo-SvqKyfI3fL0ZLOLhGu0NGIXVlu77j3DrDyPCUZIJNet-6PS-WT7ejfiUc4rvlzaSIDtDUn176utNaOUW9RqIh_Vt5O85YzU8z-oS8l9suwaSgYBFZMNbX-uTJpCcHiyekYH7Bv1yaBvk8HYssf234cseZb1U_RS8jCHhl0zDW6Q/w640-h426/logic.jpg">-->
-<!--            <h1>ლოგიკა</h1>-->
-<!--            <h3>ლოგიკური აზროვნების კურსი</h3>-->
-<!--            <a><button>სილაბუსი</button></a>-->
-<!--            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxfT2jRT2AqCn5SI8kVF4LdeKXhOqsWqFORy0QKqNGWmX5PFJtbiZUPX1CENMbEbgfkkvo3jf8iPWqS81wHmOwcP766RV-AIDJhjhwMYqlfBrCvQIqFyU88iwfwCsnPsidYJz0SAG6Fg6jGTF6CiGblq_0G67k2eMiXvz6EXNZLxrIArLYbJVNuGQOLg/s320/calculator.png">-->
-<!--            <div id="logic">-->
-<!--                <div class="courseInfo" id="courseInfoLogic">-->
-<!--                    <p><strong>მალე გაეშვება</strong></p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="block" id="id7">-->
-<!--            <img class="wallpaper" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkPcp5fdvGK2KQ1G79oA3_ODlZljohJKtapcBAvIJXvKdyoEM_MbbjpQ-aCS2MstZYN63qflIzMkahpY_PlFZvKbGLBxMhb6Jt0VOeHKTUnS1zzvufiNdoDQHu5QmGFdz0z8yDnfuliuGlDoGPdb9oAj5me4vawO_m6ZbeokCGlx2adeORjzqd7S0LdA/w640-h426/english.jpeg">-->
-<!--            <h1>ინგლისური</h1>-->
-<!--            <h3>ინგლისური ენის კურსი</h3>-->
-<!--            <a><button>სილაბუსი</button></a>-->
-<!--            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5pOoGtMeDhw7knzQq7aQatT7QCDW0bbK2n7EuYu_sHTM5HXhY8SNRkGENPyI2h5A6YVEffmFegLePlO4qUVpAuWg151TfC9FbkiivBcmPVxAQtcbJk_NbFrUGGHQSiITuyP8JF2y4_5Sj7t3JIyeIKk8kLoMOBgNOdcC1vQ5butPe9VZ7x8LDgBDHVA/s320/eng.png">-->
-<!--            <div id="eng">-->
-<!--                <div class="courseInfo" id="courseInfoEng">-->
-<!--                    <p><strong>მალე გაეშვება</strong></p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-
     </div>
 
     <script id="replace_with_footer" src="footer.js"></script>
