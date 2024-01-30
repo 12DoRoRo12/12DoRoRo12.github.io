@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="new design3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mob_poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/mob_poster.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/base.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706599140039</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new design3">
+      <option name="closed" value="true" />
+      <created>1706603934942</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706603934942</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
