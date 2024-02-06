@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="new design3">
+    <list default="true" id="5e5dab55-f41f-4b8b-b17d-4090546a8178" name="Changes" comment="2D Games">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,14 +240,6 @@
       <option name="project" value="LOCAL" />
       <updated>1675403049378</updated>
     </task>
-    <task id="LOCAL-00025" summary="Redesign">
-      <option name="closed" value="true" />
-      <created>1698048986696</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1698048986696</updated>
-    </task>
     <task id="LOCAL-00026" summary="Redesign">
       <option name="closed" value="true" />
       <created>1698049238595</created>
@@ -435,7 +424,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706622752899</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="2D Games">
+      <option name="closed" value="true" />
+      <created>1707217688494</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1707217688494</updated>
+    </task>
+    <task id="LOCAL-00050" summary="2D Games">
+      <option name="closed" value="true" />
+      <created>1707217876445</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1707217876445</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -458,6 +463,7 @@
     <MESSAGE value="new design" />
     <MESSAGE value="new design2" />
     <MESSAGE value="new design3" />
-    <option name="LAST_COMMIT_MESSAGE" value="new design3" />
+    <MESSAGE value="2D Games" />
+    <option name="LAST_COMMIT_MESSAGE" value="2D Games" />
   </component>
 </project>
