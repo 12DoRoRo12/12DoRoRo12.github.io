@@ -123,7 +123,7 @@ a {
     color: white;
 }
 
-#courses {
+.courses {
     margin-left: 5vw;
     margin-bottom: 10vw;
 }
@@ -222,7 +222,7 @@ max-width: 90vw;
     margin-top: 0vw;
     }
 
-    #courses {
+    .courses {
     margin-left: 0vw;
 
     }
