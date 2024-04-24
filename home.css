@@ -1,5 +1,5 @@
 .card-title {
-    color: rgb(40, 40, 40);
+    color: rgb(10, 10, 10);
 }
 
 
@@ -16,14 +16,6 @@
 
 
 
-
-.col-md-8 {
-    background-color: rgba(40, 40, 40, 0.5)
-}
-
-.col-md-4 {
-    background-color: rgba(40, 40, 40, 0.5)
-}
 
 #year {
     margin-top: -100px;
